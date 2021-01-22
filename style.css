@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+.container{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    
+}
+section{
+    margin-top: 20px;
+}
+.heading{
+    margin-bottom: 50px;
+}
+.project{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.projectheading h2{
+    font-size: 48px;
+}
+.logo{
+    width: 9%;
+    float: left;
+}
+.logo img{
+    max-width: 100%;
+}
+.menue{
+    width: 70%;
+    float: right;
+}
+.menue ul li {
+    display: inline-block;
+    float: right;
+}
+.menue ul li a{
+    display: inline-block;
+    padding: 25px 0px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #153e90;
+}
+
+.intro-left h1{
+    font-size: 82px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    color: #153e90;
+}
+.gray{
+    color: #54e346;
+}
+.intro-left{
+    width: 45%;
+    float: left;
+}
+.intro-right{
+    width: 45%;
+    float: right;
+}
+.hire {
+    margin-top: 20px;
+    padding: 7px 28px;
+    background: linear-gradient(
+    180deg
+, #54e346, #205591);
+    border: none;
+    border-radius: 5px;
+    
+}
+.hire:hover {
+    
+    background: linear-gradient(
+    180deg, #205591, #54e346);
+    
+}
+.hire a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 18px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.image{
+    width: 45%;
+}
+.intro-right img{
+    max-width: 100%;
+    
+}
+.about{
+    margin-top: 50px;
+    
+}
+.about_left{
+    width: 45%;
+    float: left;
+}
+.about_left img{
+    max-width: 100%;
+}
+.about_right{
+    width: 45%;
+    float: right; 
+}
+.about_right h1{
+    font-size: 82px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+    color: #153e90;
+}
+.about_right h1{
+    font-size: 60px;
+}
+.project{
+    width: 100%;
+    padding: 80px 10px;
+    margin-top: 50px;
+    background-color: #f8f9fc;
+}
+.cardholder{
+    overflow: hidden;
+    margin: auto;
+}
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 11px 12px #80808094;
+    float: left;
+    width: 28%;
+    margin-right: 3%;
+    margin-bottom: 25px;
+}
+.project img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.project h2{
+    font-size: 48px;
+    font-weight: 300;
+    color: #363958;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.card h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #363958;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.latest{
+    color: #54e346;
+}
+.inquiryContainer{
+    width: 100%;
+    margin: auto;
+}
+.inquiry{
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 25px;
+    width: 75%;
+    background: url(personal-website-main/shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inquaryHeading{
+    padding-left: 20px;
+    overflow: hidden;
+    width: 40%;
+    float: left;
+}
+.inquaryHeading h2 {
+    margin: 0px;
+    padding: 62px 10px;
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.inquaryButton {
+    padding: 70px 10px;
+    
+    text-align: right;
+    width: 40%;
+    float: right;
+    
+}
+.inquaryButton button {
+    padding: 21px 40px;
+    border: none;
+    border-radius: 10px;
+    background: #54e346;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.inquaryButton button:hover {
+    padding: 21px 40px;
+    border: none;
+    border-radius: 10px;
+    background: #153e90;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.inquaryButton button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.contact{
+    margin-top: 50px;
+}
+.contact p{
+    font-size: 24px;
+    color: #696871;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 30px;
+}
+.mail{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: lowercase;
+    color: #363958;
+}
+.socialLink{
+    width: 33%;
+    margin: auto;
+    margin-top: 30px;
+}
+.group{
+    float: left;
+    text-align: center;
+}
+.group img{
+    max-width: 40%;
+}
